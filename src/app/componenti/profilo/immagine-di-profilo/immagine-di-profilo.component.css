@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Altezza piena della viewport */
+    margin: 20px 0 0; /* Margine in alto */
+    background-color: #f0f0f0; /* Colore di sfondo */
+  }
+  
+  .profile-picture {
+    width: 200px; /* Dimensioni iniziali dell'immagine */
+    height: 200px;
+    max-width: 80%; /* Larghezza massima dell'immagine */
+    max-height: 80%; /* Altezza massima dell'immagine */
+    border-radius: 50%; /* Rende l'immagine circolare */
+    overflow: hidden; /* Nasconde eventuali contenuti che superano i bordi */
+    border: 6px solid #fff; /* Cornice bianca */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    margin: auto; /* Aggiunge un margine automatico per centrare l'elemento */
+  }
+  
+  .profile-picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    /* Stili specifici per dispositivi con larghezza massima di 768px */
+    .profile-picture {
+      width: 150px; /* Modifica le dimensioni per dispositivi più piccoli */
+      height: 150px;
+    }
+  }
+  
