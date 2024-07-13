@@ -1,0 +1,27 @@
+[
+  {
+    "title": "PersonalPage",
+    "subtitle": "La mia pagina web",
+    "imageSrc": [
+      "assets/immagini/progetto1Immagine1.png",
+      "assets/immagini/progetto1Immagine2.png"
+    ],
+    "description": "Una pagina web personale rappresenta un essenziale biglietto da visita digitale, consentendo di presentare professionalmente chi si è e cosa si offre. È uno strumento fondamentale per raggiungere nuovi clienti, migliorare la visibilità online e mantenere un dialogo costante con il pubblico interessato."
+  },
+  {
+    "title": "Secondo progetto",
+    "subtitle": "Progetto numero 2",
+    "imageSrc": [
+      "assets/immagini/progetto0ImmagineEsempio.png"
+    ],
+    "description": "Scriptura electronica privata vitam digitalis exemplificat, facultatem praebens ut personam et res suas accurate repraesentet. Est instrumentum praeclarum ad investigandum novos adiutores, visibilitatem in rete potiorem efficiens, et colloquium perpetuum cum audientia curiosa sustinens."
+  },
+  {
+    "title": "Terzo progetto",
+    "subtitle": "Progetto numero 3",
+    "imageSrc": [
+      "assets/immagini/progetto0ImmagineEsempio.png"
+    ],
+    "description": "Scriptura electronica privata vitam digitalis exemplificat, facultatem praebens ut personam et res suas accurate repraesentet. Est instrumentum praeclarum ad investigandum novos adiutores, visibilitatem in rete potiorem efficiens, et colloquium perpetuum cum audientia curiosa sustinens."
+  }
+]

@@ -1,0 +1,42 @@
+/* Stile per browser desktop */
+@media only screen and (min-width: 601px) {
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      height: 100%;
+    }
+  
+    .progetto {
+      max-width: 100%;
+      flex: 1 1 calc(30% - 20px);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+      margin: 10px;
+    }
+}
+/* Stile per i dispositivi mobili */
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        justify-content: center; /* Centra i contenuti orizzontalmente */
+        align-items: center; /* Centra i contenuti verticalmente */
+        flex-wrap: wrap; /* Permette agli elementi di andare a capo se necessario */
+        height: 90vh; /* Altezza pari all'intero viewport */
+        overflow-x: hidden; /* Nasconde l'overflow orizzontale se necessario */
+         /* Padding esterno per spaziatura */
+     
+        padding-inline: 39%;
+        margin: 1%;
+      }
+      .progetto{
+        margin-left: 0px;
+        padding: 0px;
+        width: 550%;
+      }
+      
+}

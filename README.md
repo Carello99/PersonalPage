@@ -1,27 +1,45 @@
 # PersonalPage
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+Questo progetto è stato generato con [Angular CLI](https://github.com/angular/angular-cli) versione 18.0.7.
+PersonalPage è un sito web che offre una panoramica sintetica dei miei progetti. È stato progettato con semplicità, ma rappresenta comunque una solida base per sviluppi più complessi. Questa applicazione è completamente front-end e non richiede un backend. Si compone di una singola pagina, con il contenuto dei progetti gestito dinamicamente attraverso il file progetti.json.
 
-## Development server
+## Strumenti
+Gli strumenti utilizzati per lo sviluppo di questo progetto sono stati:
+ - [Node.js](https://nodejs.org/en/download/package-manager) npm versione 10.7.0
+ - [Angular CLI](https://v17.angular.io/guide/setup-local) versione 18.0.7
+ - [Visual Studio Code](https://code.visualstudio.com/download) versione 1.91.1 (user setup)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Server di sviluppo
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Esegui `ng serve`per avviare il server di sviluppo. Naviga su `http://localhost:4200/`. L'applicazione si ricaricherà automaticamente se modifici uno dei file sorgente. Invece per far partire il server in tutta la rete locale esegui `ng serve --host 0.0.0.0`
+```bash
+ng serve
+```
+```bash
+ng serve --host 0.0.0.0
+```
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Esegui `ng build`per compilare il progetto. Gli artefatti della build saranno memorizzati nella directory `dist/`.
+```bash
+ng build
+```
 
-## Running unit tests
+## Esecuzione dei test unitari
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Esegui `ng test` per eseguire i test unitari tramite [Karma](https://karma-runner.github.io).
+```bash
+ng test
+```
 
-## Running end-to-end tests
+## Esecuzione dei test end-to-end
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Esegui `ng e2e` per eseguire i test end-to-end tramite una piattaforma a tua scelta. Per utilizzare questo comando, devi prima aggiungere un pacchetto che implementa le capacità di testing end-to-end.
+```bash
+ng e2e
+```
 
-## Further help
+## Autore
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- [@Francesco Carello](https://github.com/Carello99)

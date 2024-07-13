@@ -1,0 +1,60 @@
+.example-card {
+  max-width: 500px;
+  height: 600px;
+  margin: 60px auto; /* Centra l'elemento orizzontalmente */
+  position: relative;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.subtitle {
+  font-style: oblique;
+}
+
+@media only screen and (max-width: 600px) {
+  .example-card {
+    max-width: 88%;
+    height: 550px;
+    margin: 20px auto; /* Centra l'elemento orizzontalmente */
+  }
+}
+
+.image-navigation {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 32px); /* Larghezza del container - margini interni */
+  padding: 16px; /* Spaziatura interna per migliorare la cliccabilità */
+  z-index: 1; /* Assicura che i bottoni siano sopra l'immagine */
+}
+
+.image-navigation button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none; /* Rimuove l'outline al click */
+  transition: background-color 0.3s ease;
+}
+
+.image-navigation button:hover {
+  background-color: rgba(0, 0, 0, 0.1); /* Effetto hover per indicare la cliccabilità */
+  border-radius: 50%; /* Bordo arrotondato per i pulsanti */
+  padding: 8px; /* Aggiunge spaziatura interna al pulsante */
+}
+
+.image-navigation svg {
+  height: 24px;
+  width: 24px;
+  fill: #000000; /* Colore delle icone */
+}
+
+.image-navigation button:focus {
+  background-color: rgba(0, 0, 0, 0.1); /* Effetto focus */
+}

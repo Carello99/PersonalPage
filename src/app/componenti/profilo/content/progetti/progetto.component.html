@@ -1,0 +1,18 @@
+<mat-card class="example-card" appearance="outlined">
+    <mat-card-header>
+      <mat-card-title class="title">{{ progetto.title }}</mat-card-title>
+      <mat-card-subtitle class="subtitle">{{ progetto.subtitle }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image [src]="currentImageSrc" alt="Photo of a {{ progetto.title }}">
+    <div class="image-navigation">
+      <button mat-icon-button (click)="previousImage()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M560-240 320-480l240-240 56 56-184 184 184 184-56 56Z"/></svg>
+      </button>
+      <button mat-icon-button (click)="nextImage()">
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>
+      </button>
+    </div>
+    <mat-card-content>
+      <p>{{ progetto.description }}</p>
+    </mat-card-content>
+</mat-card>
